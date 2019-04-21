@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ListDetailFragmentAppliction</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_ects">Course ECTS</string>
+    <string name="course_description">Course Description</string>
+    <string name="course_title">Course Title</string>
+</resources>

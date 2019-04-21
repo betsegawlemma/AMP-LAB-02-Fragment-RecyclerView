@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment
+            android:id="@+id/course_list"
+            android:name="et.edu.aait.listdetailfragmentappliction.CourseListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</FrameLayout>
