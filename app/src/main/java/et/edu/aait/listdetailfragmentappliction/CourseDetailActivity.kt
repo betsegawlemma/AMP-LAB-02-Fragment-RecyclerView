@@ -1,6 +1,5 @@
 package et.edu.aait.listdetailfragmentappliction
 
-import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -8,11 +7,6 @@ class CourseDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-       if(resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE){
-           finish()
-           return
-       }
 
         if(savedInstanceState == null) {
             val detailFragment = CourseDetailFragment()
